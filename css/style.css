@@ -6,12 +6,12 @@
 }
 #heading {
   font-size: 20px;
-  width: 700px;
+  width: 100%;
   font-weight: bolder;
   text-align: center;
 }
 #main {
-  width: 700px;
+  width: 100%;
   position: relative;
   text-align: center;
   border: 3px solid blueviolet;
@@ -39,7 +39,7 @@ img {
   width: 150px;
 }
 #lang {
-  width: 700px;
+  width: 100%;
   border-radius: 20px;
 }
 #lang > h3 {
@@ -59,7 +59,7 @@ img {
 }
 #About {
   background-color: orange;
-  width: 700px;
+  width: 100%;
 }
 #lang > p:hover {
   background-color: red;
