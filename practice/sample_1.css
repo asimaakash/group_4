@@ -1,0 +1,14 @@
+#output {
+  font-size: 30px;
+  color: red;
+}
+input {
+  border: 1px solid #72dc72a1;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 2px 2px 4px red;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
