@@ -1,14 +1,53 @@
+body {
+  text-align: center;
+  background: teal;
+}
+.output_box {
+  width: 300px;
+  border: 2px solid red;
+  margin: 30px auto;
+  padding: 10px;
+}
 #output {
-  font-size: 30px;
-  color: red;
+  font-size: 20px;
+  color: rgb(186 186 255);
+}
+.heading {
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(245, 245, 7);
+}
+#output p {
+  line-height: 10px;
 }
 input {
   border: 1px solid #72dc72a1;
   border-radius: 15px;
   padding: 10px;
   box-shadow: 2px 2px 4px red;
+  font-size: 15px;
+  color: maroon;
+}
+label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: whitesmoke;
 }
 input:focus {
   border: none;
   outline: none;
+}
+button {
+  background-color: rgb(10, 226, 10);
+  color: wheat;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid green;
+  border-radius: 14px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+input:hover {
+  box-shadow: 2px 5px 6px yellow;
 }

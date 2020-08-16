@@ -7,14 +7,18 @@
     <link rel="stylesheet" type="text/css" href="sample_1.css" />
   </head>
   <body>
-    <h2>Please tell us about you.</h2>
+    <h2 class="heading">Please tell me about you.</h2>
     <div>
       <label for="fname">Full name:</label>
       <input type="text" id="fname" name="fname" /><br /><br />
       <label for="profession">Profession:</label>
       <input type="text" id="profession" name="profession" /><br /><br />
+      <label for="email"> Email Id :</label>
+      <input type="text" id="email" name="email" /><br /><br />
       <button onclick="f()">Submit</button>
-      <div id="output"></div>
+      <div class="output_box">
+        <div id="output"></div>
+      </div>
     </div>
     <script src="sample.js"></script>
   </body>
